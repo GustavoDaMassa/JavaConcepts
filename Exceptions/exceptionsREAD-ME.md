@@ -11,7 +11,7 @@ Erros geralmente não são recuperáveis em tempo de execução , é nescessári
 Nesses casos a JVM para a execução.
 
 Exemplo: 
-    StackOverflowError 
-    OutOffMemoryError
+- StackOverflowError 
+- OutOffMemoryError
 
 ## Exceptions 

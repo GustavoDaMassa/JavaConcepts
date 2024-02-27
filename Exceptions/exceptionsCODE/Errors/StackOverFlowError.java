@@ -1,9 +1,6 @@
-package exceptionsCODE;
+package exceptionsCODE.Errors;
 
-public class Errors {
-
-    // StackOverFlowError
-    // (quando estoura a memória em chamadas de um mesmo método)
+public class StackOverFlowError { // (quando estoura a memória em chamadas de um mesmo método)
 
     public static void main(String[] args) {
         recursividade();
