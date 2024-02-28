@@ -1,4 +1,4 @@
-package exceptionsCODE.Errors;
+package Exceptions.ThrowableCODE.Errors;
 
 public class StackOverFlowError { // (quando estoura a memória em chamadas de um mesmo método)
 
