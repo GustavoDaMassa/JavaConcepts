@@ -1,4 +1,4 @@
-package Throwable.ThrowableCODE.Exceptions;
+package Throwable.CODE_Throwable.Exceptions;
 
 public class RunTimeExceptions {
     public static void main(String[] args) {

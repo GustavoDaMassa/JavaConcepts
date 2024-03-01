@@ -1,4 +1,4 @@
-package Throwable.ThrowableCODE.Exceptions;
+package Throwable.CODE_Throwable.Exceptions;
 
 import java.io.File;
 import java.io.IOException;
