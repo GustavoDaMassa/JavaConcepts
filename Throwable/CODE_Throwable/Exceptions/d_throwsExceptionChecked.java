@@ -28,7 +28,7 @@ public class d_throwsExceptionChecked {
 
     private static void criarArq() throws IOException {
         File file = new File("Aquivos\\arqtesteCheckedExceptions.txt"); // path errado pra forçar ioexception
-        try { // exception sendo tratada e também relançada para o metodo antecessor para que
+        try { // exception sendo tratada e também lançada para o metodo antecessor para que
               // ele decida como deseja prosseguir
             boolean arqCriado = file.createNewFile();
             System.out.println(arqCriado);
