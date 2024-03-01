@@ -1,6 +1,6 @@
 package Throwable.CODE_Throwable.Exceptions;
 
-public class RunTimeExceptions {
+public class b_RunTimeExceptions {
     public static void main(String[] args) {
 
         Object object = null;

@@ -1,6 +1,6 @@
 package Throwable.CODE_Throwable.Exceptions;
 
-public class throwsExceptionUnchecked { // exceptions que são subclasses de RunTimeException
+public class c_throwsExceptionUnchecked { // exceptions que são subclasses de RunTimeException
     public static void main(String[] args) {
         try { // tratamento
             divisao(1, 0);
