@@ -26,4 +26,8 @@ Existem inúmeras exceções filhas de RunTimeExceptions.
 
 --- 
 ##### Throws-lançando exceptions 
-Para fazer o tratamento das exceptions Unchecked pode-se lançar ( throws new ) as possíveis exceptions que poderão ocorrer para que seja tratado em metodos recorrentes de forma que não se faz nescessário a interrupção do codigo e ainda assim haja a descrição do problema.
+- Pode-se lançar exceptions personalizadas de acordo com os requisitos da sua aplicação;
+
+- Para fazer o tratamento das exceptions Unchecked pode-se lançar ( throws new ) para que haja a descrição do problema, não nescessariamente deve-se fazer o tratamento pois o condigo ainda continuará rodando
+
+- Diferentemente das Unchecked as exception checked deve ter o tratamento adequado em todos os casos, ele pode ser feito nos metodos mais internos ou pelos metodos que realizaram a chamada. é possivel também tratar a exception e ainda assim lança-la para o método recorrente para que seja aplicada uma regra de negócio.   
