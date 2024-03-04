@@ -2,7 +2,6 @@ package Throwable.CODE_Throwable.Exceptions;
 
 import java.io.FileNotFoundException;
 import java.nio.channels.FileLockInterruptionException;
-import java.nio.file.FileSystemNotFoundException;
 
 public class f_MultiplasExceções {
 

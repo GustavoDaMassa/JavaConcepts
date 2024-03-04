@@ -8,7 +8,7 @@ public class d_throwsExceptionChecked {
         try {
 
             criarArquivo();
-            criarArq();
+            criarArq(); // caso o método anterior
         } catch (IOException e) {
             // aq pode ser tratado a exception ou lançada pra outro metodo que tenha a
             // chamado, como é a main o ideal é ser tratada");
