@@ -9,7 +9,7 @@ import java.io.Reader;
 import Throwable.CODE_Throwable.Exceptions.classes.ReaderTest2;
 import Throwable.CODE_Throwable.Exceptions.classes.ReaderTest;
 
-public class h_TryWithResources {
+public class ec_TryWithResources {
     public static void main(String[] args) {
         ReadArquivos();
     }

@@ -3,7 +3,7 @@ package Throwable.CODE_Throwable.Exceptions;
 import java.io.FileNotFoundException;
 import java.nio.channels.FileLockInterruptionException;
 
-public class f_MultiplasExceções {
+public class ea_MultiplasExceções {
 
     // quando não se sabe qual a exceção específica que poderá ser retornada é
     // possível usar multiplos catch

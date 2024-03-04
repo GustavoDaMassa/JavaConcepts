@@ -3,7 +3,7 @@ package Throwable.CODE_Throwable.Exceptions;
 import java.io.FileNotFoundException;
 import java.nio.channels.FileLockInterruptionException;
 
-public class g_CatchesEmLinha {
+public class eb_CatchesEmLinha {
 
     // Os Catches em linha também é uma opção para quando não se sabe qual a
     // exception específica porém não podem conter exception que fazer parte da
