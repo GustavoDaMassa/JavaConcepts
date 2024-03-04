@@ -31,3 +31,4 @@ Existem inúmeras exceções filhas de RunTimeExceptions.
 - Para fazer o tratamento das exceptions Unchecked pode-se lançar ( throws new ) para que haja a descrição do problema, não nescessariamente deve-se fazer o tratamento pois o condigo ainda continuará rodando
 
 - Diferentemente das Unchecked as exception checked deve ter o tratamento adequado em todos os casos, ele pode ser feito nos metodos mais internos ou pelos metodos que realizaram a chamada. é possivel também tratar a exception e ainda assim lança-la para o método recorrente para que seja aplicada uma regra de negócio.   
+- Ao fazer a sobrescritas de métodos que lançam exceções pode-se reescrever as exceçoes e trata-las ou não. E também pode-se adicionar novas exceções desde que não sejam mais genéricas do que as da superclasse.
