@@ -1,0 +1,1 @@
+Arquivo de teste do pacote Throwable - ec_TryWithResources 

@@ -1,4 +1,5 @@
 package Throwable.CODE_Throwable.Exceptions.classes;
+// ---->>> Utilizada em f_CustomizadaException
 
 // Para fazer uma Exception Customizada basta que a classe estenda a classe
 // Exception
