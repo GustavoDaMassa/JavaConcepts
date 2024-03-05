@@ -81,3 +81,9 @@ Há algumas classes que atualmente já estão depressiadas no java e outras mais
   - **^** - pode ser utilizado pra encontrar oq deseja no começo da linha ou dentro do [ ] como negação.
   - [site para estudos sobre regex](https://regexr.com/).
 ___
+## Scanner
+- Tokens e Delimitadores
+  - Na linguagem Java é possivel para Strings utilizar o método split(String delimitadores); para definir qual o caracter que deseja-se usar como separador e colocar os tokens em cada posição de um array por exemplo. 
+  - A classe Scanner tem como padrão o espaço em branco como delimitador ( método scanner.next(); ) porém é possivel definir outro delimitador com o o método scanner.useDelimiter();
+  - No método snanner.useDelimiter é possivel também passar como parametro objetos da classe Pattern e usar expressões regulares;
+  - É possivel assim analisar textos e trabalhar de diferentes formas com uma mesma entrada de dados, sendo possível separar determinadas palavras desejadas, números inteiros dentre o texto, entre outras possibilidades.
