@@ -54,4 +54,5 @@ Há algumas classes que atualmente já estão depressiadas no java e outras mais
   - **OffsetDateTime**;
   - **DateTimeFormatter**;
 -  #### ResourceBundle
-   -  
+   - É uma forma que o Java tem de internalizar dados de um arquivo .properties que é um arquivo que armazena as chaves e valores;
+  
