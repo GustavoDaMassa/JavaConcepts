@@ -1,4 +1,4 @@
-public class StringBuilders {
+public class c_StringBuilders {
     public static void main(String[] args) {
         String nome = "Gustavo"; // pool de string
         nome.concat(" Henrique"); // existe nome-> "Gustavo" e "Henrique" e "Gustavo Henrique"
