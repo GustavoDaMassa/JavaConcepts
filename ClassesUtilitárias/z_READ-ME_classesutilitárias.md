@@ -13,8 +13,8 @@ Esse tema se trata sobre tópicos mais específicos da linguagem Java, que serã
 - Strings são excelentes para a representação de problemas reais no entando quando escalamos muito o número de strings com que trabalhamos a sua performace consome muito mémoria e deixa o nosso programa um pouco lento, buscando resolver esse problema o java implementou as StringBuilders e StringBuffers( pro caso de Threads) que obtem uma performace muito mais rápida 
 - A principal diferença é que não é aplicado a imutabilidade de strings, assim sendo é possivel trabalhar com eles alterando diretamente o conteúdo das StringBuilders e não só a sua referência, ocupando menos espaços de memória, a StringBuilder só é de fato transformada em uma string quando se acessa seu conteudo como por exemplo com o método toString(); 
 - Possui métodos diferentes das strings que funcionam de formas também diferentes, as vezes de maneira mais complexas e é nescessaário atenção ao funcionameto e tipo de retorno de cada método.  
-  
-## Demais classes
+---
+##  internalização
 
   Há muitas outras classes utilitárias em java introduzidas desde as primeiras versões que ajudam o programador a trabalhar com problemas do mundo real. no entando muitas já possuem métodos depravados que podem em breve sair do escolpo do java. 
 
@@ -34,7 +34,7 @@ Esse tema se trata sobre tópicos mais específicos da linguagem Java, que serã
     - É possível internalizar também números e moedas.
   - #### SimpleDateFormat
     - Oferece um pouco mais de flexibilidade ao fazer a formatação de datas de acordo com um padrão de símbolos definidos.
-## Java.time
+## Java.time/util
 Há algumas classes que atualmente já estão depressiadas no java e outras mais atuais que possuem métodos otimizados e indicados para serem trabalhados como exemplo as classes do pacote Java.time: 
  - ####  LocalDate 
    -   específica para datas;
@@ -53,6 +53,31 @@ Há algumas classes que atualmente já estão depressiadas no java e outras mais
   - **ZoneId**;
   - **OffsetDateTime**;
   - **DateTimeFormatter**;
--  #### ResourceBundle
-   - É uma forma que o Java tem de internalizar dados de um arquivo .properties que é um arquivo que armazena as chaves e valores;
+  - **ResourceBundle**.
   
+---
+## Expressões Regulares - regex 
+
+  - As expressões regulares têm como objeto encontrar padrões dentro de um arquivo ou texto atravez de metacaracteres;
+  - Funciona atravez de pattern e matcher , padrão e busca respectivamente; 
+- MetaCaracteres:
+  - **\d** -  todos os dígitos;
+  - **\D** - tudo oque não for dígito;
+  - **\s** - espaços em branco , \t \n \f \r; 
+  - **\S** - todos os caracteres menos os espaços em branco;
+  - **\w** - a-zA-Z, dígitos e o _ ;
+  - **\W** - tudo que não é incluso no \w.
+- Range:
+  - **[ abc ]** - Irá procurar por cada caracter dentro dos conchetes separadamente( "a" ou "b" ou "c"); 
+- Quantificadores:
+  - **?** - zero ou uma ocorrência;
+  - **\*** - zero ou mais ocorrência; 
+  - **+** - uma ou mais ocorrência;
+  - **{n,m}** - de n até m ; 
+  - **( )** - agrupamento;
+  - **|** - clausula ou , exemplo: o(v|c)o -> ovo | oco;  
+  - **$** - fim da linha; 
+  - **.** - ponto é um caracter coringa.
+  - **^** - pode ser utilizado pra encontrar oq deseja no começo da linha ou dentro do [ ] como negação.
+  - [site para estudos sobre regex](https://regexr.com/).
+___

@@ -1,6 +1,6 @@
 import java.lang.String;
 
-public class Strings {
+public class b_Strings {
     public static void main(String[] args) {
         // string constant pool
         String nome = "gustavo";
