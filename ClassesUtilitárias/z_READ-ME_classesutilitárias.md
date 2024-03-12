@@ -122,3 +122,5 @@ ___
 Novo pacote para entrada e saida de dados.
 -  #### Path, Paths e Files
    -  É muito provável que em breve o pacote File seja depravado e subistituído pela do pacote java.nio. Path é uma interface que facilita o trabalho com arquivos e Paths e Files são classes para se trabalhar encima de Path.
+  
+Ao se trabalhar com paths no java temos diversas  funcionalidades para resolvermos diversos conceitos, como por exemplo normalização de paths, ou seja quando temos apenas o caminho definido por ../../ atraves do método normalize() é possível descobrir qual o caminho dentro do sistema operacional.Conseguimos também resolver paths absolutos e relativos ( resolve() ) onde quando temos dois paths partindo do root do nosso sistema, e um deles na verdade deveria está partindo de dentro de determinado repositório, e adquirindo assim o path correto no qual precisaremos trabalhar.  
