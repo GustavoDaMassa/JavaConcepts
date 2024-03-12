@@ -1,0 +1,4 @@
+Arquivo de teste para o tema IO 
+ _______________ 
+Escrevendo pela BUfferWriter
+pulando linha
