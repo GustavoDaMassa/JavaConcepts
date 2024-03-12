@@ -10,8 +10,18 @@ public class b_Metacaracteres {
         // \S - todos os caracteres menos os espaços em branco;
         // \w - a-zA-Z, dígitos e o _ ;
         // \W - tudo que não é incluso no \w.
+        // [ abc ] - Irá procurar por cada caracter dentro dos conchetes separadamente(
+        // "a" ou "b" ou "c");
+        // ? - zero ou uma ocorrência;
+        // * - zero ou mais ocorrência;
+        // + - uma ou mais ocorrência;
+        // {n,m} - de n até m ;
+        // ( ) - agrupamento;
+        // | - clausula ou , exemplo: o(v|c)o -> ovo | oco;
+        // $ - fim da linha;
+        // . - ponto é um caracter coringa.
 
-        String regex = "0[xX]([\\da-fA-F])+(\\s|$)";
+        String regex = "0[xX]([\\da-fA-F])+(\\s|$)"; // procurando números hexadecimais
         String text = "12 0x 0X 0XFBADF 0x10Z 0x0"; // 0xFFA representa numeros hexadeciamis em Java
 
         Pattern pattern = Pattern.compile(regex); // compilar
