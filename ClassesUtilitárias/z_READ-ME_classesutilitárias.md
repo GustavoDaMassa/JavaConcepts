@@ -2,7 +2,7 @@
 Esse tema se trata sobre tópicos mais específicos da linguagem Java, que serão aplicados em futuros assuntos e que possibilitam diversas formas de desenvolvimento de códigos e os otimizam. 
 
 ---
- ## Wrappers 
+ ## Wrappers
 
  - É a transformação dos tipos primitivos em objetos (boxing). Atravez das conhecidas classes wrappers que possibilitam a passagem de valores via referencias e diversos métodos, como exemplo UpperCase, LowerCase, entre muito outros que podem e devem ser explorados.
 
@@ -18,7 +18,7 @@ Esse tema se trata sobre tópicos mais específicos da linguagem Java, que serã
 
   Há muitas outras classes utilitárias em java introduzidas desde as primeiras versões que ajudam o programador a trabalhar com problemas do mundo real. no entando muitas já possuem métodos depravados que podem em breve sair do escolpo do java. 
 
-  - #### Date 
+  - #### Date
     - Representa a data com um long;
     - Pode ser utilizado o método toString para representar melhor a data atual;
     - É nescessário ter cuidado para importar a classe do pacote certo.
@@ -87,3 +87,38 @@ ___
   - A classe Scanner tem como padrão o espaço em branco como delimitador ( método scanner.next(); ) porém é possivel definir outro delimitador com o o método scanner.useDelimiter();
   - No método snanner.useDelimiter é possivel também passar como parametro objetos da classe Pattern e usar expressões regulares;
   - É possivel assim analisar textos e trabalhar de diferentes formas com uma mesma entrada de dados, sendo possível separar determinadas palavras desejadas, números inteiros dentre o texto, entre outras possibilidades.
+___
+
+## IO - InputOutput
+
+- #### File 
+  - Para objetos da classe File é nescessário usar duas \\\ para definir o path desejado;
+  - Ao deletar o arquivo é sempre bom verificar se ele existe;
+-  #### FileWriter
+   -  Classe para escrita de Arquivos;
+   -  Pode ser passado como argumento um obejto do tipo File;
+   -  Ao instanciar o objeto FileWriter pode se passsar um segundo parametro booleano pra definir de o arquivo irá fazer append no arquivo ou reescrever todo o seu conteúdo. 
+-  #### FileReader
+   -  Classe de mais baixo nivel para ler um arquivo;
+   -  O método read(); retorna um inteiro representando o valor do caracer de acordo com a tabela ASCIII;
+   -  O fim do arquivo é representado pelo valor -1;
+  -  #### BufferedWriter
+     - Basicamente é otimizado para trabalhar com arquivos grandes;
+     - É nescessário encapsular uma FileWriter passando ele como parametro;
+     - Possui os mesmos métodos;
+     - Porém a quebra de linha já é pensada pra se adaptar ao sistema operacional atraves da função newLune().
+-  #### BufferedReader 
+    - Também ootimizada para grandes arquivos;
+    - Por sua vez ela lê linhas;
+    - O ultimo caracter do arquivo agora será null; 
+-  #### Diretório
+   -  É a pasta onde os aruivos ficam alocados e definem o path para que eles sejam encontrados
+   -  É possível criar pastas atraves do Java assim como definir em algo caminho deseja salvar arquivos passando como referencia um obejeto representando a pasta e não o path inteiro;
+   -  Também é possível renomear pastas e arquivos; 
+ ___
+
+ ## NIO - NewInputOutput
+
+Novo pacote para entrada e saida de dados.
+-  #### Path, Paths e Files
+   -  É muito provável que em breve o pacote File seja depravado e subistituído pela do pacote java.nio. Path é uma interface que facilita o trabalho com arquivos e Paths e Files são classes para se trabalhar encima de Path.
