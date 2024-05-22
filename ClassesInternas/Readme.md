@@ -1,8 +1,11 @@
-In Java, an internal class is often referred to as a nested class. Nested classes are classes defined within the scope of another class. There are four types of nested classes in Java:
+
+# Internal Class in Java 
+
+An internal class is often referred to as a nested class. Nested classes are classes defined within the scope of another class. There are four types of nested classes in Java:
 
 1. **Static Nested Class**
 2. **Inner Class (Non-static Nested Class)**
-3. **Local Inner Class**
+3. **Local Inner Class** 
 4. **Anonymous Inner Class**
 
 ### 1. Static Nested Class
