@@ -44,3 +44,4 @@ O conceito de wildcard(curinga), diz respeito a quando se deseja usar classes ma
 
 - Os genéricos são normalmente definidos usando parâmetros de tipo entre colchetes angulares ( <e >). Por exemplo, List< T > onde T é um parâmetro de tipo que representa o tipo de elementos na lista.
 - Podemos passar tanto T para tipos, E para elementos, K para keys e V para valores, quando nao definidos.
+'
