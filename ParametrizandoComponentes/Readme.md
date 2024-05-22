@@ -30,7 +30,8 @@ Example:
 interface Greeting {
     void sayHello(String name);
 }
-
+```
+```
 // Using a lambda expression to parameterize behavior
 public class Main {
     public static void main(String[] args) {
